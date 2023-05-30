@@ -38,7 +38,7 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
-HTML5, CSS3, Flexbox, Git and Github
+HTML5, CSS3, JavaScript, Git and Github
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -70,7 +70,7 @@ HTML5, CSS3, Flexbox, Git and Github
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://bohaz.github.io/First-mobile-project/)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,7 +93,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 cd my-folder
-git clone git@github.com:bohaz/Hello-.git
+git clone https://github.com/bohaz/capstone-project1.git
 
 ### Install
 
@@ -171,8 +171,9 @@ If you like this project let me know with a STAR!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+Original [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) idea by [Cindy Shin](https://www.behance.net/adagio07) in Behance.
 
-I would like to thank all my coding partners for giving to me their help and support.
+Content and Images from [NFR Home Page](https://www.nfrexperience.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
