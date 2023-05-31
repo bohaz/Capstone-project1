@@ -1,0 +1,713 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  height: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 5%;
+}
+
+/* ------------------Nav-var------------------ */
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burguer-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.burguer-button div {
+  width: 100%;
+  height: 5px;
+  background-color: #272a31;
+  margin-bottom: 4px;
+}
+
+.desk-ul {
+  display: none;
+}
+
+.black-bar {
+  display: none;
+}
+
+/* ----------------Mobile menu-------------- */
+
+.mobile-menu {
+  background: rgba(39, 42, 50, 0.95);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 80%;
+  position: fixed;
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.mobile-ul {
+  list-style: none;
+  margin-top: 0;
+  margin-left: 24px;
+  margin-right: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.mobile-ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.soon {
+  font-weight: bold;
+  width: 50%;
+  height: 30px;
+  background-color: white;
+  padding: 10px 35px 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #ec5242;
+  border: 4px solid #ec5242;
+}
+
+.close-button {
+  display: flex;
+  width: 95%;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+/* ------------------Home-page------------------- */
+
+.home-page {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(Capstone-img/Backimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
+}
+
+.home-page-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h1 {
+  color: #ec5242;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 2%;
+}
+
+.main-paragraph {
+  color: #ec5242;
+  font-size: 20px;
+}
+
+.secundary-paragraf {
+  color: #272a31;
+  font-size: 12px;
+  border: 3px solid white;
+  background-color: rgb(247, 247, 247);
+  padding: 5% 3%;
+  line-height: 1, 5;
+}
+
+.date {
+  font-weight: 900;
+  font-size: 25px;
+  margin-top: 4%;
+  color: #272a31;
+}
+
+/* ---------------------Events------------------------- */
+
+.events {
+  background-image: url(Capstone-img/pattern_bg.png);
+  background-color: #272a31;
+  padding: 5%;
+}
+
+.event-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.events h2 {
+  color: white;
+  font-size: 2em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.red-line {
+  width: 10vw;
+  height: 2px;
+  background-color: #ec5242;
+  margin-top: 10px;
+}
+
+.events ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 10px;
+  margin-top: 5%;
+}
+
+.event-li {
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  align-items: center;
+  padding: 2%;
+}
+
+.event-li:hover {
+  border: 2px solid white;
+}
+
+.event {
+  color: #ec5242;
+  font-size: 13px;
+  font-weight: 600;
+  width: 10%;
+}
+
+.event-comment {
+  font-size: 12px;
+  color: white;
+  width: 55%;
+}
+
+.tickets {
+  width: 70%;
+  height: 40px;
+  border: none;
+  background-color: #ec5242;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin-top: 3%;
+}
+
+.join {
+  display: none;
+}
+
+/* ----------------Standings----------------- */
+
+.top-standing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+
+.top-standing h2 {
+  color: #272a31;
+  text-align: center;
+  width: 2, 5vw;
+}
+
+#cowboys-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5vh;
+  margin-top: 20px;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card {
+  display: flex;
+  gap: 7%;
+  align-items: center;
+}
+
+.project-card img {
+  width: 25vw;
+  background-image: url(Capstone-img/chessBoard.png);
+  background-repeat: no-repeat;
+  background-size: 65%;
+}
+
+.project-card h3 {
+  font-size: 1, 5vw;
+  color: #272a31;
+}
+
+.project-card p {
+  font-size: 1, 5vw;
+}
+
+.project-age {
+  color: #272a31;
+}
+
+.project-description {
+  color: #272a31;
+}
+
+.project-from {
+  color: #ec5242;
+}
+
+.more-button {
+  width: 90%;
+  height: 50px;
+  margin-top: 5%;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+/* ---------------------Sponsors--------------------- */
+
+.sponsors {
+  background-color: #333;
+  padding: 5%;
+}
+
+.sponsors-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sponsors-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sponsor-line {
+  width: 7vh;
+  height: 2px;
+  background-color: #ec5242;
+  margin-top: 10px;
+}
+
+.sponsors-content li {
+  list-style: none;
+}
+
+.sponsors-content img {
+  width: 18vw;
+  margin: 2.5vw;
+}
+
+.sponsors h2 {
+  color: white;
+  font-size: 2, 5vw;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* ---------------Footer--------------- */
+
+footer {
+  padding: 5%;
+}
+
+.img-footer {
+  width: 20%;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20%;
+}
+
+.footer-content p {
+  font-size: 13px;
+  color: #272a31;
+}
+
+/* ------------------------About------------------------ */
+
+.logo-container {
+  padding: 5%;
+}
+
+.logo-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-content img {
+  width: 50vw;
+}
+
+.logo-content h2 {
+  font-size: 5vw;
+  font-weight: 400;
+  text-align: center;
+  color: #272a31;
+}
+
+.logo-content p {
+  font-size: 12px;
+  color: #272a31;
+}
+
+/* ----------------------Best section---------------------- */
+
+.best-container {
+  padding: 5%;
+}
+
+.best-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.best-content h2 {
+  font-size: 5vw;
+  font-weight: 400;
+  text-align: center;
+  color: #272a31;
+}
+
+.best-content p {
+  font-size: 12px;
+  color: #272a31;
+}
+
+.best-content img {
+  width: 60%;
+  filter: hue-rotate(500deg);
+}
+
+#main-paragraph-about {
+  text-align: center;
+}
+
+#h1-about {
+  text-align: center;
+}
+
+#secundary-paragraf-about {
+  text-align: center;
+}
+
+button:hover {
+  border: 2px solid white;
+}
+
+.sponsors-about {
+  background-color: #333;
+}
+
+.best-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .burguer-button {
+    display: none;
+  }
+
+  .logo {
+    display: block;
+  }
+
+  .desk-ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+  }
+
+  .desk-ul li {
+    display: flex;
+    align-items: center;
+  }
+
+  .desk-ul a {
+    text-decoration: none;
+    color: #4f4f4f;
+    font-size: 0.938em;
+    font-weight: bold;
+  }
+
+  header {
+    padding: 0;
+  }
+
+  .black-bar {
+    display: flex;
+    background: rgb(62, 62, 62);
+    left: 0;
+    height: 30px;
+    text-decoration: none;
+    padding: 0 12% 5px 10%;
+    justify-content: flex-end;
+  }
+
+  .black-bar ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .black-bar li {
+    display: flex;
+    align-items: center;
+  }
+
+  .black-bar a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .nav-bar {
+    position: relative;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 0 12%;
+    margin-bottom: 3px;
+  }
+
+  /* ------------------Home-page------------------- */
+
+  .home-page {
+    padding-left: 12%;
+    padding-right: 40%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .main-paragraph {
+    font-size: 2vw;
+  }
+
+  .secundary-paragraf {
+    font-size: 1.125em;
+  }
+
+  h1 {
+    font-size: 5vw;
+    line-height: 5vw;
+    font-weight: 900;
+  }
+
+  /* ---------------------Events------------------------- */
+
+  .events {
+    padding: 4% 12% 13% 12%;
+  }
+
+  .event {
+    width: 100%;
+    text-align: center;
+  }
+
+  .event-comment {
+    width: 100%;
+    text-align: center;
+  }
+
+  .events ul {
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .event-li {
+    flex-direction: column;
+    height: 30vh;
+    width: 15vw;
+    align-items: center;
+  }
+
+  .tickets {
+    display: none;
+  }
+
+  .join {
+    display: block;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+
+  /* ----------------Standings----------------- */
+
+  .project-card img {
+    width: 10vw;
+    background-image: url(Capstone-img/chessBoard.png);
+    background-repeat: no-repeat;
+    background-size: 65%;
+  }
+
+  #cowboys-container {
+    display: grid;
+    grid-template-columns: repeat(2, 35vw);
+    column-gap: 2vw;
+  }
+
+  .top-standing {
+    padding: 3% 12% 3% 12%;
+  }
+
+  .top-standing h2 {
+    font-size: 2em;
+  }
+
+  .more-button {
+    display: none;
+  }
+
+  /* ----------------Sponsor----------------- */
+
+  .sponsors {
+    padding: 3% 10% 3% 10%;
+  }
+
+  .sponsors-content img {
+    width: 10vw;
+  }
+
+  .sponsors h2 {
+    font-size: 2em;
+  }
+
+  /* ---------------Footer--------------- */
+
+  footer {
+    padding: 3% 12% 3% 12%;
+  }
+
+  .img-footer {
+    width: 15%;
+  }
+
+  .footer-content {
+    justify-content: center;
+  }
+
+  .footer-content p {
+    font-size: 16px;
+  }
+
+  /* ------------------------About------------------------ */
+
+  .logo-container {
+    padding: 3% 10% 3% 10%;
+  }
+
+  .logo-content img {
+    width: 20vw;
+    margin-top: 5%;
+  }
+
+  .logo-content h2 {
+    font-size: 2em;
+  }
+
+  .logo-content p {
+    font-size: 16px;
+  }
+
+  #about-footer {
+    background-color: #272a31;
+  }
+
+  #about-p {
+    color: white;
+  }
+
+  #secundary-paragraf-about {
+    margin-top: 5%;
+  }
+
+  /* ----------------------Best section---------------------- */
+
+  .best-container {
+    padding: 3% 10% 10% 10%;
+  }
+
+  .best-images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 5%;
+  }
+
+  .best-content img {
+    width: 50%;
+  }
+
+  .sponsors-about {
+    display: none;
+  }
+
+  .best-content h2 {
+    font-size: 2vw;
+  }
+
+  .best-content p {
+    font-size: 16px;
+  }
+
+  .red-line {
+    width: 5vw;
+  }
+
+  #home-page-about {
+    padding-right: 10%;
+  }
+}
