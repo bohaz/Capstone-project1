@@ -90,14 +90,15 @@ header {
 }
 
 .soon {
-  width: 30%;
-  height: 40px;
-  border: none;
-  background-color: #ec5242;
-  padding: 10px 20px;
+  font-weight: bold;
+  width: 50%;
+  height: 30px;
+  background-color: white;
+  padding: 10px 35px 25px;
   text-align: center;
   text-decoration: none;
-  color: white;
+  color: #ec5242;
+  border: 4px solid #ec5242;
 }
 
 .close-button {
@@ -126,6 +127,7 @@ h1 {
   color: #ec5242;
   font-size: 40px;
   font-weight: 900;
+  margin-top: 2%;
 }
 
 .main-paragraph {
@@ -145,6 +147,7 @@ h1 {
 .date {
   font-weight: 900;
   font-size: 25px;
+  margin-top: 4%;
 }
 
 /* ---------------------Events------------------------- */
@@ -163,7 +166,7 @@ h1 {
 
 .events h2 {
   color: white;
-  font-size: 2, 5vw;
+  font-size: 2em;
   font-weight: 400;
   text-align: center;
 }
@@ -261,6 +264,9 @@ h1 {
 
 .project-card img {
   width: 25vw;
+  background-image: url(Capstone-img/chessBoard.png);
+  background-repeat: no-repeat;
+  background-size: 65%;
 }
 
 .project-card h3 {
@@ -273,6 +279,14 @@ h1 {
 
 .project-from {
   color: #ec5242;
+}
+
+.more-button {
+  width: 90%;
+  height: 50px;
+  margin-top: 5%;
+  background-color: white;
+  border: 1px solid gray;
 }
 
 /* ---------------------Sponsors--------------------- */
@@ -434,7 +448,7 @@ button:hover {
   .desk-ul {
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 30px;
   }
 
   .desk-ul li {
@@ -445,7 +459,8 @@ button:hover {
   .desk-ul a {
     text-decoration: none;
     color: #4f4f4f;
-    font-weight: 600;
+    font-size: 0.938em;
+    font-weight: bold;
   }
 
   header {
@@ -456,9 +471,9 @@ button:hover {
     display: flex;
     background: rgb(62, 62, 62);
     left: 0;
-    height: 20px;
+    height: 30px;
     text-decoration: none;
-    padding: 0 10% 5px 10%;
+    padding: 0 12% 5px 10%;
     justify-content: flex-end;
   }
 
@@ -484,26 +499,39 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 70px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    padding: 0 10%;
+    padding: 0 12%;
     margin-bottom: 3px;
   }
 
   /* ------------------Home-page------------------- */
 
   .home-page {
-    padding: 10%;
+    padding-left: 12%;
+    padding-right: 40%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .main-paragraph {
+    font-size: 2vw;
   }
 
   .secundary-paragraf {
-    font-size: 16px;
+    font-size: 1.125em;
+  }
+
+  h1 {
+    font-size: 5vw;
+    line-height: 4vw;
+    font-weight: 900;
   }
 
   /* ---------------------Events------------------------- */
 
   .events {
-    padding: 1% 10% 5% 10%;
+    padding: 4% 12% 13% 12%;
   }
 
   .event {
@@ -518,11 +546,12 @@ button:hover {
 
   .events ul {
     flex-direction: row;
+    gap: 15px;
   }
 
   .event-li {
     flex-direction: column;
-    height: 33vh;
+    height: 20vh;
     width: 15vw;
     align-items: center;
   }
@@ -534,7 +563,7 @@ button:hover {
   .join {
     display: block;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 20px;
   }
 
@@ -542,6 +571,9 @@ button:hover {
 
   .project-card img {
     width: 10vw;
+    background-image: url(Capstone-img/chessBoard.png);
+    background-repeat: no-repeat;
+    background-size: 65%;
   }
 
   #cowboys-container {
@@ -551,7 +583,15 @@ button:hover {
   }
 
   .top-standing {
-    padding: 3% 10% 3% 10%;
+    padding: 3% 12% 3% 12%;
+  }
+
+  .top-standing h2 {
+    font-size: 2em;
+  }
+
+  .more-button {
+    display: none;
   }
 
   /* ----------------Sponsor----------------- */
@@ -564,10 +604,14 @@ button:hover {
     width: 10vw;
   }
 
+  .sponsors h2 {
+    font-size: 2em;
+  }
+
   /* ---------------Footer--------------- */
 
   footer {
-    padding: 3% 10% 3% 10%;
+    padding: 3% 12% 3% 12%;
   }
 
   .img-footer {
@@ -590,10 +634,11 @@ button:hover {
 
   .logo-content img {
     width: 20vw;
+    margin-top: 5%;
   }
 
   .logo-content h2 {
-    font-size: 2vw;
+    font-size: 2em;
   }
 
   .logo-content p {
@@ -608,16 +653,22 @@ button:hover {
     color: white;
   }
 
+  #secundary-paragraf-about {
+    margin-top: 5%;
+  }
+
   /* ----------------------Best section---------------------- */
 
   .best-container {
-    padding: 3% 10% 3% 10%;
+    padding: 3% 10% 10% 10%;
   }
 
   .best-images {
     display: flex;
-    gap: 16px;
+    gap: 20px;
     justify-content: center;
+    flex-direction: row;
+    margin-top: 5%;
   }
 
   .best-content img {
@@ -638,5 +689,9 @@ button:hover {
 
   .red-line {
     width: 5vw;
+  }
+
+  #home-page-about {
+    padding-right: 10%;
   }
 }
