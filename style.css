@@ -136,7 +136,7 @@ h1 {
 }
 
 .secundary-paragraf {
-  color: black;
+  color: #272a31;
   font-size: 12px;
   border: 3px solid white;
   background-color: rgb(247, 247, 247);
@@ -148,6 +148,7 @@ h1 {
   font-weight: 900;
   font-size: 25px;
   margin-top: 4%;
+  color: #272a31;
 }
 
 /* ---------------------Events------------------------- */
@@ -239,6 +240,7 @@ h1 {
 }
 
 .top-standing h2 {
+  color: #272a31;
   text-align: center;
   width: 2, 5vw;
 }
@@ -271,10 +273,19 @@ h1 {
 
 .project-card h3 {
   font-size: 1, 5vw;
+  color: #272a31;
 }
 
 .project-card p {
   font-size: 1, 5vw;
+}
+
+.project-age {
+  color: #272a31;
+}
+
+.project-description {
+  color: #272a31;
 }
 
 .project-from {
@@ -352,6 +363,7 @@ footer {
 
 .footer-content p {
   font-size: 13px;
+  color: #272a31;
 }
 
 /* ------------------------About------------------------ */
@@ -375,10 +387,12 @@ footer {
   font-size: 5vw;
   font-weight: 400;
   text-align: center;
+  color: #272a31;
 }
 
 .logo-content p {
   font-size: 12px;
+  color: #272a31;
 }
 
 /* ----------------------Best section---------------------- */
@@ -398,10 +412,12 @@ footer {
   font-size: 5vw;
   font-weight: 400;
   text-align: center;
+  color: #272a31;
 }
 
 .best-content p {
   font-size: 12px;
+  color: #272a31;
 }
 
 .best-content img {
@@ -524,7 +540,7 @@ button:hover {
 
   h1 {
     font-size: 5vw;
-    line-height: 4vw;
+    line-height: 5vw;
     font-weight: 900;
   }
 
@@ -551,7 +567,7 @@ button:hover {
 
   .event-li {
     flex-direction: column;
-    height: 20vh;
+    height: 30vh;
     width: 15vw;
     align-items: center;
   }
