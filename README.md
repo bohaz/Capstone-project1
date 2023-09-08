@@ -31,10 +31,10 @@
 - [📝 License](#license)
 
 
-# 📖 [Capstone project 1] <a name="about-project"></a>
+# 📖 Capstone project 1 <a name="about-project"></a>
 
 
-**[Capstone project 1]** Is a personal portfolio made made from scratch using Html, Css and Flexbox.
+**Capstone project 1** Is a personal portfolio made made from scratch using Html, Css and Flexbox.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -62,9 +62,9 @@ HTML5, CSS3, JavaScript, Git and Github
 ### Key Features <a name="key-features"></a>
 
 
-- **[Best organization]**
-- **[Professional documentation]**
-- **[Clean Working]**
+- **Best organization**
+- **Professional documentation**
+- **Clean Working**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,10 +91,10 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder:
-
+```sh
 cd my-folder
 git clone https://github.com/bohaz/capstone-project1.git
-
+```
 ### Install
 
 
@@ -114,11 +114,11 @@ To run tests, run the following commands:
 
 -HTML linter errors run:
 
-npx hint .
+```npx hint .```
 
 -CSS linter errors run:
 
-npx stylelint "**/*.{css,scss}"
+```npx stylelint "**/*.{css,scss}"```
 
 ### Deployment
 
@@ -132,11 +132,11 @@ You can deploy this project using:
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Author1**
+👤 **Ricardo Martínez**
 
-- GitHub: [@bohaz](https://github.com/githubhandle)
-- Twitter: [@Ricardo29115571](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@bohaz](https://github.com/bohaz)
+- Twitter: [@Ricardo29115571](https://twitter.com/Ricardo29115571)
+- LinkedIn: [Ricardo Martinez](https://www.linkedin.com/in/ricardomart%C3%ADnez%E2%88%B4/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -145,8 +145,8 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Functionality]**
-- [ ] **[Content]**
+- [ ] **Functionality**
+- [ ] **Content**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
